@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<!-- ERROR 1: head tag incomplete -->
+<head>
+    <!-- ERROR 2: title not closed -->
+    <title>Mastering HTML Lists</title>
+
+    <!-- ERROR 3: link with wrong rel value -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ERROR 4: meta tag broken -->
+    <meta charset="UTF-8">
+
+<!-- ERROR 5: Missing closing head -->
+</head>
+<body>
+    <!-- ERROR 6: h1 not closed -->
+    <h1>Complete Guide to HTML Lists</h1>
+
+    <h2>Unordered Lists</h2>
+
+    <!-- ERROR 7: ul not closed properly -->
+    <ul>
+        <li>First item</li>
+        <!-- ERROR 8: Missing closing li -->
+        <li>Second item</li>
+        <li>Third item</li>
+        <!-- ERROR 9: li with wrong tag name -->
+        <li>Fourth item</li>
+        <!-- ERROR 10: il instead of li -->
+        <li>Fifth item</li>
+    </ul>
+
+    <h2>Ordered Lists</h2>
+
+    <!-- ERROR 11: ol spelled wrong -->
+    <ol>
+        <li>Step one</li>
+        <!-- ERROR 12: Missing li tags -->
+        <li>Step two</li> 
+        <li>Step three</li>
+        <!-- ERROR 13: Only closing tag -->
+        <!-- ERROR 14: Forward slash in opening tag -->
+        </li>Step four</li>
+    </ol>
+
+    <h3>Nested Lists</h3>
+
+    <ul>
+        <li>Main item 1</li>
+        <li>Main item 2</li>
+            <!-- ERROR 15: Nested ul not in li -->
+        </li>
+    <ul>
+            <li>Sub item A</li>
+            <li>Sub item B</li>
+    </ul>
+        <!-- ERROR 16: Missing closing li above -->
+        <li>Main item 3</li>
+    </ul>
+
+    <!-- ERROR 17: Wrong closing tag -->
+    <h2>Mixed Lists</h2>
+
+    <!-- ERROR 18: ul with forward slash -->
+    <ul>
+        <li>Bullet point</li>
+        <!-- ERROR 19: ol inside ul without li wrapper -->
+        <
+        <ol>
+            <li>Numbered item</li>
+            <!-- ERROR 20: Missing closing li -->
+            <li>Another number
+        </ol>
+        <li>Another bullet</li>
+    </ul>
+
+    <h3>Common List Errors</h3>
+
+    <!-- ERROR 21: OL uppercase -->
+    <OL>
+        <!-- ERROR 22: li incomplete -->
+        <li First error</li>
+        <!-- ERROR 23: Missing opening li -->
+        Second error</li>
+        <!-- ERROR 24: li with dot -->
+        <li.>Third error</li>
+    </ol>
+
+    <!-- ERROR 25: p tag inside ul (invalid) -->
+    <ul>
+        <p>This is wrong!</p>
+        <li>Correct item</li>
+        <!-- ERROR 26: h3 inside ul without li -->
+        <h3>Wrong nesting</h3>
+        <li>Another item</li>
+    </ul>
+
+    <h3>Description Lists</h3>
+
+    <!-- ERROR 27: dl tag wrong -->
+    <d1>
+        <!-- ERROR 28: dt not closed -->
+        <dt>HTML
+        <dd>HyperText Markup Language</dd>
+        <!-- ERROR 29: Wrong tag for dd -->
+        <dt>CSS</dt>
+        <dd1>Cascading Style Sheets</dd>
+        <!-- ERROR 30: Missing closing dt -->
+        <dt>JavaScript
+        <dd>Programming Language</dd>
+    </dl>
+
+    <!-- ERROR 31: Missing h2 opening -->
+    List Best Practices</h2>
+
+    <ul>
+        <li>Use semantic HTML</li>
+        <li>Don't skip nesting levels
+        <!-- ERROR 32: Missing closing li above -->
+        <!-- ERROR 33: Empty li tags -->
+        <li></li>
+        <li>Keep lists organized</li>
+        <!-- ERROR 34: li with space in tag -->
+        <l i>Validate your code</li>
+    </ul>
+
+    <!-- ERROR 35: ol not opened -->
+    </ol>
+
+    <h3>List Applications</h3>
+
+    <!-- ERROR 36: ul with space -->
+    <u l>
+        <li>Navigation menus</li>
+        <li>Table of contents</li>
+        <li>Recipe ingredients
+    </ul>
+    <!-- ERROR 37: Missing closing li above -->
+
+    <!-- ERROR 38: Broken ul tag -->
+    ul>
+        <li>Shopping lists</li>
+        <li>Task lists</li>
+        <!-- ERROR 39: br inside li incorrectly -->
+        <li>Todo items</br></li>
+    </ul>
+
+    <!-- ERROR 40: ol with attribute error -->
+    <ol type="A" start="one">
+        <li>First letter item</li>
+        <li>Second letter item
+        <!-- ERROR 41: Missing closing li -->
+    </ol>
+
+    <!-- ERROR 42: ul self-closing -->
+    <ul/>
+        <li>This won't work</li>
+    </ul>
+
+    <!-- ERROR 43: Nested ol wrong -->
+    <ol>
+        <li>Main point
+            <ol>
+                <!-- ERROR 44: li with equals -->
+                <li=>Sub point</li>
+            <!-- ERROR 45: Missing closing ol -->
+        </li>
+    </ol>
+
+    <!-- ERROR 46: List item outside list -->
+    <li>Orphan list item</li>
+
+    <h3>Complex Nesting</h3>
+
+    <ul>
+        <li>Level 1
+            <ul>
+                <li>Level 2
+                    <!-- ERROR 47: ul not closed -->
+                    <ul>
+                        <li>Level 3</li>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- ERROR 48: ol with wrong quotes -->
+    <ol type='1">
+        <li>Item one</li>
+        <!-- ERROR 49: Missing li opening -->
+        Item two</li>
+    </ol>
+
+    <!-- ERROR 50: dl missing closing -->
+    <dl>
+        <dt>Term</dt>
+        <dd>Definition</dd>
+
+    <!-- ERROR 51: ul tag with number -->
+    <ul1>
+        <li>Won't work</li>
+    </ul>
+
+    <!-- ERROR 52: Broken li tag -->
+    <ul>
+        <li>Normal item</li>
+        <li/>Self-closing li</li>
+        <!-- ERROR 53: li with hyphen -->
+        <li->Broken item</li>
+    </ul>
+
+    <!-- ERROR 54: Missing closing h4 -->
+    <h4>Summary
+
+    <p>Lists organize content effectively!</p>
+
+    <!-- ERROR 55: ol lowercase closing with uppercase opening -->
+    <OL>
+        <li>Final item</li>
+    </ol>
+
+    <!-- ERROR 56: ul never closed -->
+    <ul>
+        <li>Last list</li>
+        <li>Never closes
+
+    <!-- ERROR 57: Missing closing li above -->
+
+    <!-- ERROR 58: body tag broken closing -->
+    </body>
+
+    <!-- ERROR 59: html closing incomplete -->
+    </html
+
+    <!-- ERROR 60: Extra text after html -->
+    Extra content

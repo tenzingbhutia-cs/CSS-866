@@ -1,0 +1,81 @@
+/* Activity 3: Styling Lists - 25 Errors to Find */
+
+/* ERROR 1: ul selector with dot (wrong for element) */
+.ul {
+    /* ERROR 2: list-style-type value wrong */
+    list-style-type: bullets;
+    /* ERROR 3: margin-left missing unit */
+    margin-left: 20;
+    /* ERROR 4: padding with text value */
+    padding: medium;
+}
+
+/* ERROR 5: ol selector with wrong syntax */
+ol. {
+    /* ERROR 6: list-style-position value wrong */
+    list-style-position: inner;
+    /* ERROR 7: Invalid list-style shorthand */
+    list-style: square outside;
+}
+
+/* ERROR 8: li selector missing closing brace */
+li {
+    /* ERROR 9: line-height as percentage without % */
+    line-height: 150;
+    /* ERROR 10: color rgb with only 2 values */
+    color: rgb(255, 0);
+    /* ERROR 11: Missing semicolon */
+    margin-bottom: 5px
+
+/* ERROR 12: Nested list selector wrong syntax */
+ul ul {
+    /* ERROR 13: margin with space in value */
+    margin: 10 px;
+    /* ERROR 14: list-style-image wrong value */
+    list-style-image: "bullet.png";
+}
+
+/* ERROR 15: Class selector without dot */
+list-item {
+    /* ERROR 16: font-weight as string */
+    font-weight: "bold";
+    /* ERROR 17: text-indent negative without unit */
+    text-indent: -20;
+}
+
+/* ERROR 18: Invalid property name */
+ol li {
+    list-decoration: none;
+}
+
+/* ERROR 19: Missing value */
+ul li {
+    padding-left: ;
+}
+
+/* ERROR 20: Property with equals sign */
+dl {
+    margin-top = 10px;
+}
+
+/* ERROR 21: dt and dd selector wrong */
+dt, dd, {
+    /* ERROR 22: display value wrong */
+    display: visible;
+}
+
+/* ERROR 23: Wrong comment syntax */
+// This is wrong comment style
+ul ol {
+    margin: 0;
+}
+
+/* ERROR 24: Pseudo-selector wrong */
+li::first {
+    font-weight: bold;
+}
+
+/* ERROR 25: Missing closing brace and broken property */
+.nested-list {
+    /* Invalid property name */
+    list-margin: 20px;
