@@ -5,7 +5,7 @@
     /* ERROR 2: list-style-type value wrong */
     list-style-type: bullets;
     /* ERROR 3: margin-left missing unit */
-    margin-left: 20;
+    margin-left: 20px;
     /* ERROR 4: padding with text value */
     padding: medium;
 }
